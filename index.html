@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Personal Home Page  Template</title>
+  <link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- =================
+  WRITE YOUR HTML HERE
+
+You only need to write the HTML that goes inside the <body> tag. To add things to the <head>, click the ⚙️ 
+   ===================
+-->
+
+<!--- All the tests are red! You have to make them green. 
+
+Q How do you make the tests pass?
+A Meet the requirements!
+
+Make the first test pass by adding a <header> </header>-->
+
+<!DOCTYPE html>
+<html class="sr" lang="en">
+<head>
+  <title>Olena Reukova</title>
+  </head>
+<header class="c-site-header">
+   <div class="header">
+     <nav aria-label="Main Site Links."> 
+      <ul>
+      <li><a class="nav-link" href="#Home">Home</a></li>
+      <li><a class="nav-link" href="#about">About</a></li>  
+      <li><a class="nav-link" href="#skills">Skills</a></li>  
+      <li><a class="nav-link" href="#passion">Passion</a></li>    
+      <li><a class="nav-link" href="#contacts">Contacts</a></li>  
+     </ul> 
+    </nav> 
+   </div>
+  </header>
+
+<main class="main">
+  <section id="Home">
+    <h1>Hi! I'm Olena, nice to meet you.</h1>
+    <h2 class="big-heading">Welcome!</h2>
+  </section>
+  <section id="about">
+  <h2>About</h2>
+  <p>I am from Ukraine, I love photography and making short films on mobile phone. I enjoy outdoor activities. I have a dog.</p>
+   <picture><img id="photo" width="250" height="250"      src="https://lh3.googleusercontent.com/r8xTiCivDcnFfGSNU1xErctxuKbgzX8v2RuGlsQQLRodxw5SpHcV4WpXlfqb1IJijDgSwTEX40UaZ9VP6QX6YkrTggDURq3N7aJBtPg7icydOyZzgGpCW9nfUP6M-KTpDDVdUKGP5flHHMfLyTUQVsSjX_4PGykbDCYgI_e2HVryrGnHnwWUOKLM4bTrqGbLsySR2KunSBtVWuga6J55uJwjSicR826c04aXHoELT5dNraOHwy-wvoHvq4lvnCqv5dgeKu9I1MCqwu3xVJ2K9qojtItSQnddlI5AbPwUg3GjDsDaBj44U7rmUyZhOoMHib5jKmEx6acgAHIJUUzsTq84HJ8ROBWgbuWSalIbyYpprz4TdobyPcVlv-ffnVo6EnB75lqIugoe4qWpGj6-zBO93ywjnWnS-KQ2Sly_N0hwJ1V_ZEnluTkR8NgXTT-Mzjk3w9CJ_v9XcwpnfWZxCYSOX3a1b7nqNYkRgrBKpDZBY2fL6-bSJQzYb-RmgtaQO0GtZHhPhc1GsdVBpgx4mt1NpO89bl5cOY0iMjq97pPLPH8z9UWiMVEBfslRB78cU_EPpRY2Y-qoIRFZ7MdYiRjcby9YDuhbibnvj3pKXRAFxdJDD8RYJNGTrFYql8opjH-eCezEmiCEO8Ho3FnBFrdZI5QEkgezKEfaHELliifUF4t0GlzpMZD-zS-QOo-kcWaXJwHDMByCDbKQUTTh3KP9LragzANsGPoVr7iqRnkh6VetHiqtnlPLk9g=w1684-h1538-no?authuser=0" alt="photo">
+</picture>
+  <p>My partner and I moved to the UK in April 2022 and we have been living in Brixton, very nice and beautiful place in the south of London. It has  unique atmosphere and charm which You can see in the video.</p>
+  <div id="video"> 
+    <iframe title="YouTube video player" width="560" height="315" src="https://www.youtube.com/embed/nSfedzk3Pr4" style="border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="skills">
+  <h2>Skills</h2>
+  <p>I was a Manager at big FMCG companies in Ukraine, also I have MSc in Electrical Engineering. Since moving to London I have been studiing coding to make a career change into the Tech Industry. I think my skills in communication, solving problems and engineering knowledge will be very useful in Front-End Developing. </p>
+</section>
+<section id="passion">
+  <h2>Passion</h2>
+  <p>Front-end Web development for me is one of the ways I can impact people lives globally in the World. As a creative person I have a serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</p>
+  </section>
+<section id="contacts">
+  <h2>Get in touch</h2>
+  <p>Have a question or want to work together?</p>
+  <form class="form_contact">
+  <input id="text" type="text" name="text" placeholder="Name" required><br>
+ <input id="email" type="email" name="email" placeholder="Email" required pattern="+@globex\.com" size="30"><br>
+  <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your message here..."></textarea><br>
+  <div>
+    <button type="submit" id="submit" value="Submit" class="btn">Submit</button>
+  </div>
+  </form>
+  </section>
+  </main>
+<footer>
+  <div class="c-site-footer">
+    <ul>
+    <li><a href="#">Privacy Policy</a></li>
+    </ul>
+    <div class="footnote">Designed & Built by Olena Reukova</div>
+      </div>
+</footer>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Your test console.
+Don't delete!-->
+<aside id="tests" aria-label="Test Readout." aria-live="polite" style="overflow:auto">
+</aside>
+<!-- partial -->
+  <script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/core.js'></script>
+<script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
